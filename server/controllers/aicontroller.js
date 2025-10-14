@@ -5,7 +5,6 @@ import {v2 as cloudinary} from 'cloudinary'
 import axios from "axios";
 import FormData from 'form-data';
 import fs from 'fs'
-import { PDFParse } from 'pdf-parse';
 
 
 
