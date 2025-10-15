@@ -60,7 +60,7 @@ useEffect(() => {
       <div className='bg-white h-full w-full rounded-xl overflow-y-scroll'>
         {
           creations?.map((creation, index) => (
-            <div key={index} className='relative group inline-block pl-3 pt-3 w-full  sm:max-w-1/2 lg:max-w-1/3'>
+            <div key={index} className='relative group inline-block px-3 pt-3 w-full  sm:max-w-1/2 lg:max-w-1/3 z-auto'>
               <img src={creation.content} alt="community-image" className='w-full h-full object-cover rounded-lg' />
 
               <div className='absolute bottom-0 top-0 right-0 left-3 flex gap-2 items-end justify-end group-hover:justify-between p-3 group-hover:bg-gradient-to-b from-transparent to-black/80 rounded-lg text-white'>
